@@ -1,4 +1,14 @@
-## Notebook Content
+# Soft-Classification of Galaxy Morphologies Using Deep Neural Networks
+
+### Overview
+This project introduces advancements in galaxy image classification using deep learning techniques. By incorporating constraints into the loss function and leveraging a modified Transformer-based architecture, we aim to emulate human responses in classifying galaxy morphologies accurately. Our work demonstrates that deep learning models, specifically custom-designed Convolutional Neural Networks (CNNs) and Vision Transformers, can effectively classify galaxy images, surpassing traditional methods and crowd-sourced initiatives.
+
+### Introduction
+Galaxies exhibit various morphological structures, such as irregular, elliptical, and spiral shapes. Understanding these morphologies is crucial for astrophysical research on galaxy evolution and formation. Traditionally, galaxy classification involved manual observation, but with the exponential increase in the number of images, this method is no longer feasible.
+
+This project leverages deep learning architectures to automatically classify galaxy morphologies from JPEG images. The models are designed to match human classification accuracy, thereby scaling up the classification process while reducing human labor.
+
+### Notebook Content
 
 Below we summarise the contents of each notebook.
 
@@ -16,7 +26,7 @@ Below we summarise the contents of each notebook.
 
 
 
-## Dataset
+### Dataset
 Compressed .npz file containing the galaxy images and target distributions is too large to put on github (~500MB)
 
 Please download it from google drive: https://drive.google.com/file/d/1i5f22vNKh_uXY8q-Y_DCxS0gRdbGZZnv/view?usp=sharing
