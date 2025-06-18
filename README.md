@@ -29,16 +29,4 @@ Below we summarise the contents of each notebook.
 ### Dataset
 Compressed .npz file containing the galaxy images and target distributions is too large to put on github (~500MB)
 
-Please download it from google drive: https://drive.google.com/file/d/1i5f22vNKh_uXY8q-Y_DCxS0gRdbGZZnv/view?usp=sharing
 
-To load the data, use the following code:
-
-```python
-# read in image and target datasets
-data_path = 'path/to/data'
-loaded_arrays = np.load(data_path)
-
-# Retrieve the arrays
-train = loaded_arrays['images']
-target = loaded_arrays['target']
-```
